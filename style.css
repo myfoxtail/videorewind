@@ -1,0 +1,40 @@
+html, body { height: 100%; width: 100%;}
+html, body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, fieldset, input, abbr, article, aside, command, details, figcaption, figure, footer, header, hgroup, mark, meter, nav, output, progress, section, summary, time {
+    margin: 0; padding: 0; font: 12px/18px Helvetica, Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6, pre, code, address, caption, cite, code, em, strong, th, figcaption { font-size: 1em; font-style: normal; font-weight: normal; }
+fieldset, iframe { border: medium none; }
+caption, th { text-align: left; }
+table { border-collapse: collapse; border-spacing: 0; }
+article, aside, footer, header, hgroup, nav, section, figure, figcaption { display: block; }
+html { background-color: #FFFFFF; }
+.clear { clear: both; }
+
+
+#title { background-color: #EAEAEA; background-image: linear-gradient(#FAFAFA, #EAEAEA); background-repeat: repeat-x; border: 1px solid #D5D5D5; width: 100%; height: 70px; text-align: center; }
+#title span { margin-left: 30px; font-size: 3em; color: #333333; line-height: 1.9em; }
+
+.wrapper { padding: 15px; display: block; border: 1px solid #eeeeee; width: 1000px; margin: 0 auto; text-align: center; }
+.wrapper p { font-size: 1.4em; line-height: 1.4em; color: #333; }
+input[type="text"] { margin-top: 10px; background: none repeat scroll 0 0 #FCFCFC; box-shadow: 1px 1px 0 #FFFFFF; border-radius: 3px; color: #333333; outline: medium none; vertical-align: middle; margin-right : 15px; font-size: 12px; min-height: 28px; padding : 0 10px 0 8px; width: 370px; border: 1px solid #CCCCCC;}
+input[type="text"]:focus { border-color: #60B044; box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075) inset, 0 0 5px rgba(81, 167, 23, 0.5) }
+
+.button { margin-top: 10px; background-color: #60B044; background-image: linear-gradient(#8ADD6D, #60B044); background-repeat: repeat-x; border-color: #5CA941; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); border-radius: 3px; cursor: pointer; display: inline-block; font-size: 1.1em; padding: 6px 12px; vertical-align: middle; white-space: nowrap; margin-right: 15px; color: #ffffff !important; }
+.cancel.button { background-color: #b04444; background-image: linear-gradient(#dd6d6d, #b04444); background-repeat: repeat-x; border-color: #b04444;  color: #fff; }
+
+#video { border: 1px solid #eeeeee; margin-top: 10px; height: 450px; }
+video { width: inherit; height: inherit; }
+#video.fullscreen { position: absolute; left: 0; top: 0; width: 100%; height: 100%; }
+#video.fullscreen video { width: 100%; height: 100%; }
+
+#video-controls.fullscreen { position: absolute; left: 0; bottom: 0; width: 100%; z-index: 12; }
+
+#video-controls { height: 40px; background-color: #EAEAEA; background-image: linear-gradient(#FAFAFA, #EAEAEA); background-repeat: repeat-x; border: 1px solid #D5D5D5; }
+#video-controls div { display: block; width: 32px; height: 32px; cursor: pointer; margin-top: 4px; }
+
+#play { background: url('play-icon.png') 0 0 no-repeat; float: left;  }
+#pause { background: url('pause-icon.png') 0 0 no-repeat; float: left;  }
+#expand { background: url("arrow-expand-icon.png") -7px -7px no-repeat; float: right; }
+/*#stop { background: url('stop-icon.png') 0 0 no-repeat; float: left; }*/
+#speed { font-size: 1.5em; float: right; line-height: 1.7em; }
+#speedUp { background: url('plus-icon.png') 0 0 no-repeat; float: right; }
+#speedDown { background: url('minus-icon.png') 0 0 no-repeat; float: right; }
